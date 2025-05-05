@@ -2,7 +2,7 @@ const bcrypt = require("bcryptjs");
 const path = require("path");
 const fs = require('fs');
 const jwt = require("jsonwebtoken");
-const prisma = require("../prisma/prisma-client");
+const { prisma } = require("../prisma/prisma-client");
 // const Jdenticon = require('jdenticon');
 
 const UserController = {

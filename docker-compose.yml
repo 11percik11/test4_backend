@@ -36,7 +36,7 @@ services:
       MONGO_INITDB_ROOT_USERNAME: daniilww
       MONGO_INITDB_ROOT_PASSWORD: pass
  react-app: # React-приложение
-    build: C:\Users\rebi7\OneDrive\Desktop\project\front\my-app # Путь к вашему React-приложению относительно корня вашего проекта
+    build: ../test4_front # Путь к вашему React-приложению относительно корня вашего проекта
     ports:
       - '80:80' # Порт, на котором будет доступно ваше React-приложение
       - '8000:8000' # Порт, на котором будет доступно ваше React-приложение
